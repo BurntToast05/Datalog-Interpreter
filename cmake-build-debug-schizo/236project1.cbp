@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="236project1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/users/guest/c/cg392/project1/cmake-build-debug-schizo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/users/guest/c/cg392/project1/cmake-build-debug-schizo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/users/guest/c/cg392/project1/cmake-build-debug-schizo"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="236project1">
+				<Option output="/users/guest/c/cg392/project1/cmake-build-debug-schizo/236project1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/c/cg392/project1/cmake-build-debug-schizo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/users/guest/c/cg392/project1/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 236project1"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="236project1/fast">
+				<Option output="/users/guest/c/cg392/project1/cmake-build-debug-schizo/236project1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/c/cg392/project1/cmake-build-debug-schizo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/users/guest/c/cg392/project1/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 236project1/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/c/cg392/project1/cmake-build-debug-schizo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/users/guest/c/cg392/project1/AddAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/AddAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Automaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/ColonAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/ColonAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/ColonDashAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/ColonDashAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/CommaAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/CommaAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/CommentAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/CommentAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/FactsAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/FactsAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/IdAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/IdAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/LeftParenAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/LeftPatrenAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Lexer.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Lexer.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/MultiplyAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/MultiplyAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/PeriodAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/PeriodAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Q-MarkAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Q-MarkAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/QueriesAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/QueriesAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/RightParenAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/RightParenAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/RulesAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/RulesAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/SchemesAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/SchemesAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/StringAutomaton.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/StringAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Token.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Token.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/main.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

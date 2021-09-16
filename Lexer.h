@@ -3,6 +3,7 @@
 #include <vector>
 #include "Automaton.h"
 #include "Token.h"
+#include <iostream>
 
 class Lexer
 {
@@ -20,7 +21,16 @@ public:
 
     void Run(std::string& input);
     
-    // TODO: add other public methods here
+    void toString()
+    {
+        for (size_t i = 0; i < tokens.size(); ++i)
+        {
+            tokens.at(i)->toString();
+        }
+    }
+    void totalTokens(){
+        std::cout << "Total Tokens = " << tokens.size();
+    }
 
 };
 

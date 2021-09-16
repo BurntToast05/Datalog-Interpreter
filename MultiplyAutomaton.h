@@ -2,7 +2,14 @@
 // Created by corbi on 9/15/2021.
 //
 
-#ifndef INC_236PROJECT1_MULTIPLYAUTOMATON_H
-#define INC_236PROJECT1_MULTIPLYAUTOMATON_H
+#ifndef MULTIPLYAUTOMATON_H
+#define MULTIPLYAUTOMATON_H
+#include "Automaton.h"
+class MultiplyAutomaton : public Automaton
+{
+public:
+    MultiplyAutomaton() : Automaton(TokenType::MULTIPLY) {}  // Call the base constructor
 
-#endif //INC_236PROJECT1_MULTIPLYAUTOMATON_H
+    void S0(const std::string& input);
+};
+#endif //MULTIPLYAUTOMATON_H

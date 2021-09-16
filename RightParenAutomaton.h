@@ -2,7 +2,14 @@
 // Created by corbi on 9/15/2021.
 //
 
-#ifndef INC_236PROJECT1_RIGHTPARENAUTOMATON_H
-#define INC_236PROJECT1_RIGHTPARENAUTOMATON_H
+#ifndef RIGHTPARENAUTOMATON_H
+#define RIGHTPARENAUTOMATON_H
+#include "Automaton.h"
+class RightParenAutomaton : public Automaton
+{
+public:
+    RightParenAutomaton() : Automaton(TokenType::RIGHT_PAREN) {}  // Call the base constructor
 
-#endif //INC_236PROJECT1_RIGHTPARENAUTOMATON_H
+    void S0(const std::string& input);
+};
+#endif //RIGHTPARENAUTOMATON_H

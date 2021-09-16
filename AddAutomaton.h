@@ -2,7 +2,14 @@
 // Created by corbi on 9/15/2021.
 //
 
-#ifndef INC_236PROJECT1_ADDAUTOMATON_H
-#define INC_236PROJECT1_ADDAUTOMATON_H
+#ifndef ADDAUTOMATON_H
+#define ADDAUTOMATON_H
+#include "Automaton.h"
+class AddAutomaton : public Automaton
+{
+public:
+    AddAutomaton() : Automaton(TokenType::ADD) {}  // Call the base constructor
 
-#endif //INC_236PROJECT1_ADDAUTOMATON_H
+    void S0(const std::string& input);
+};
+#endif //ADDAUTOMATON_H

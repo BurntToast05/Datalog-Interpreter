@@ -1,0 +1,3 @@
+/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles/rebuild_cache.dir
+/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles/edit_cache.dir
+/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles/236project1.dir
