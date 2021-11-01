@@ -35,6 +35,11 @@ public:
     Token(TokenType typeoftoken, std::string descriptiontodo, int linetoinput);
 
     void toString();
+    TokenType getTokenType()
+    {
+        return type;
+    }
+    std::string getDescription();
 
 };
 

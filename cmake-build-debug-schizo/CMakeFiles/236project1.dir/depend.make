@@ -50,6 +50,7 @@ CMakeFiles/236project1.dir/Lexer.cpp.o: ../QueriesAutomaton.h
 CMakeFiles/236project1.dir/Lexer.cpp.o: ../RightParenAutomaton.h
 CMakeFiles/236project1.dir/Lexer.cpp.o: ../RulesAutomaton.h
 CMakeFiles/236project1.dir/Lexer.cpp.o: ../SchemesAutomaton.h
+CMakeFiles/236project1.dir/Lexer.cpp.o: ../StringAutomaton.h
 CMakeFiles/236project1.dir/Lexer.cpp.o: ../Token.h
 
 CMakeFiles/236project1.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
@@ -69,6 +70,11 @@ CMakeFiles/236project1.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
 
 CMakeFiles/236project1.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
 
+CMakeFiles/236project1.dir/StringAutomaton.cpp.o: ../Automaton.h
+CMakeFiles/236project1.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
+CMakeFiles/236project1.dir/StringAutomaton.cpp.o: ../StringAutomaton.h
+CMakeFiles/236project1.dir/StringAutomaton.cpp.o: ../Token.h
+
 CMakeFiles/236project1.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/236project1.dir/Token.cpp.o: ../Token.h
 
@@ -76,4 +82,9 @@ CMakeFiles/236project1.dir/main.cpp.o: ../Automaton.h
 CMakeFiles/236project1.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/236project1.dir/main.cpp.o: ../Token.h
 CMakeFiles/236project1.dir/main.cpp.o: ../main.cpp
+CMakeFiles/236project1.dir/main.cpp.o: ../parser.h
+
+CMakeFiles/236project1.dir/parser.cpp.o: ../Token.h
+CMakeFiles/236project1.dir/parser.cpp.o: ../parser.cpp
+CMakeFiles/236project1.dir/parser.cpp.o: ../parser.h
 

@@ -117,6 +117,12 @@
 		<Unit filename="/users/guest/c/cg392/project1/CommentAutomaton.h">
 			<Option target="236project1"/>
 		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/DatalogProgram.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/DatalogProgram.h">
+			<Option target="236project1"/>
+		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/FactsAutomaton.cpp">
 			<Option target="236project1"/>
 		</Unit>
@@ -147,10 +153,22 @@
 		<Unit filename="/users/guest/c/cg392/project1/MultiplyAutomaton.h">
 			<Option target="236project1"/>
 		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Parameter.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Parameter.h">
+			<Option target="236project1"/>
+		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/PeriodAutomaton.cpp">
 			<Option target="236project1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/PeriodAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Predicate.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Predicate.h">
 			<Option target="236project1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/Q-MarkAutomaton.cpp">
@@ -169,6 +187,12 @@
 			<Option target="236project1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/RightParenAutomaton.h">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Rule.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/Rule.h">
 			<Option target="236project1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/RulesAutomaton.cpp">
@@ -196,6 +220,12 @@
 			<Option target="236project1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/main.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/parser.cpp">
+			<Option target="236project1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cg392/project1/parser.h">
 			<Option target="236project1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cg392/project1/CMakeLists.txt">

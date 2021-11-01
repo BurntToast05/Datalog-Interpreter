@@ -31,6 +31,15 @@ public:
     void totalTokens(){
         std::cout << "Total Tokens = " << tokens.size();
     }
+    std::vector<Token> getTokens()
+    {
+        std::vector<Token> tokenList;
+        for (size_t i = 0; i < tokens.size(); ++i)
+        {
+            tokenList.push_back(*tokens.at(i));
+        }
+        return tokenList;
+    }
 
 };
 

@@ -304,6 +304,71 @@ CMakeFiles/236project1.dir/StringAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1.dir/StringAutomaton.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/c/cg392/project1/StringAutomaton.cpp -o CMakeFiles/236project1.dir/StringAutomaton.cpp.s
 
+CMakeFiles/236project1.dir/parser.cpp.o: CMakeFiles/236project1.dir/flags.make
+CMakeFiles/236project1.dir/parser.cpp.o: ../parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/236project1.dir/parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1.dir/parser.cpp.o -c /users/guest/c/cg392/project1/parser.cpp
+
+CMakeFiles/236project1.dir/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1.dir/parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/c/cg392/project1/parser.cpp > CMakeFiles/236project1.dir/parser.cpp.i
+
+CMakeFiles/236project1.dir/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1.dir/parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/c/cg392/project1/parser.cpp -o CMakeFiles/236project1.dir/parser.cpp.s
+
+CMakeFiles/236project1.dir/DatalogProgram.cpp.o: CMakeFiles/236project1.dir/flags.make
+CMakeFiles/236project1.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/236project1.dir/DatalogProgram.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1.dir/DatalogProgram.cpp.o -c /users/guest/c/cg392/project1/DatalogProgram.cpp
+
+CMakeFiles/236project1.dir/DatalogProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1.dir/DatalogProgram.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/c/cg392/project1/DatalogProgram.cpp > CMakeFiles/236project1.dir/DatalogProgram.cpp.i
+
+CMakeFiles/236project1.dir/DatalogProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1.dir/DatalogProgram.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/c/cg392/project1/DatalogProgram.cpp -o CMakeFiles/236project1.dir/DatalogProgram.cpp.s
+
+CMakeFiles/236project1.dir/Rule.cpp.o: CMakeFiles/236project1.dir/flags.make
+CMakeFiles/236project1.dir/Rule.cpp.o: ../Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/236project1.dir/Rule.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1.dir/Rule.cpp.o -c /users/guest/c/cg392/project1/Rule.cpp
+
+CMakeFiles/236project1.dir/Rule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1.dir/Rule.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/c/cg392/project1/Rule.cpp > CMakeFiles/236project1.dir/Rule.cpp.i
+
+CMakeFiles/236project1.dir/Rule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1.dir/Rule.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/c/cg392/project1/Rule.cpp -o CMakeFiles/236project1.dir/Rule.cpp.s
+
+CMakeFiles/236project1.dir/Predicate.cpp.o: CMakeFiles/236project1.dir/flags.make
+CMakeFiles/236project1.dir/Predicate.cpp.o: ../Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/236project1.dir/Predicate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1.dir/Predicate.cpp.o -c /users/guest/c/cg392/project1/Predicate.cpp
+
+CMakeFiles/236project1.dir/Predicate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1.dir/Predicate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/c/cg392/project1/Predicate.cpp > CMakeFiles/236project1.dir/Predicate.cpp.i
+
+CMakeFiles/236project1.dir/Predicate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1.dir/Predicate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/c/cg392/project1/Predicate.cpp -o CMakeFiles/236project1.dir/Predicate.cpp.s
+
+CMakeFiles/236project1.dir/Parameter.cpp.o: CMakeFiles/236project1.dir/flags.make
+CMakeFiles/236project1.dir/Parameter.cpp.o: ../Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/236project1.dir/Parameter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/236project1.dir/Parameter.cpp.o -c /users/guest/c/cg392/project1/Parameter.cpp
+
+CMakeFiles/236project1.dir/Parameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/236project1.dir/Parameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/c/cg392/project1/Parameter.cpp > CMakeFiles/236project1.dir/Parameter.cpp.i
+
+CMakeFiles/236project1.dir/Parameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/236project1.dir/Parameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/c/cg392/project1/Parameter.cpp -o CMakeFiles/236project1.dir/Parameter.cpp.s
+
 # Object files for target 236project1
 236project1_OBJECTS = \
 "CMakeFiles/236project1.dir/ColonAutomaton.cpp.o" \
@@ -324,7 +389,12 @@ CMakeFiles/236project1.dir/StringAutomaton.cpp.s: cmake_force
 "CMakeFiles/236project1.dir/QueriesAutomaton.cpp.o" \
 "CMakeFiles/236project1.dir/IdAutomaton.cpp.o" \
 "CMakeFiles/236project1.dir/CommentAutomaton.cpp.o" \
-"CMakeFiles/236project1.dir/StringAutomaton.cpp.o"
+"CMakeFiles/236project1.dir/StringAutomaton.cpp.o" \
+"CMakeFiles/236project1.dir/parser.cpp.o" \
+"CMakeFiles/236project1.dir/DatalogProgram.cpp.o" \
+"CMakeFiles/236project1.dir/Rule.cpp.o" \
+"CMakeFiles/236project1.dir/Predicate.cpp.o" \
+"CMakeFiles/236project1.dir/Parameter.cpp.o"
 
 # External object files for target 236project1
 236project1_EXTERNAL_OBJECTS =
@@ -348,9 +418,14 @@ CMakeFiles/236project1.dir/StringAutomaton.cpp.s: cmake_force
 236project1: CMakeFiles/236project1.dir/IdAutomaton.cpp.o
 236project1: CMakeFiles/236project1.dir/CommentAutomaton.cpp.o
 236project1: CMakeFiles/236project1.dir/StringAutomaton.cpp.o
+236project1: CMakeFiles/236project1.dir/parser.cpp.o
+236project1: CMakeFiles/236project1.dir/DatalogProgram.cpp.o
+236project1: CMakeFiles/236project1.dir/Rule.cpp.o
+236project1: CMakeFiles/236project1.dir/Predicate.cpp.o
+236project1: CMakeFiles/236project1.dir/Parameter.cpp.o
 236project1: CMakeFiles/236project1.dir/build.make
 236project1: CMakeFiles/236project1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable 236project1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/c/cg392/project1/cmake-build-debug-schizo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable 236project1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/236project1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

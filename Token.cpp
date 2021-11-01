@@ -50,3 +50,7 @@ std::string EnumToString(TokenType token)
 void Token::toString() {
     std::cout << "(" << EnumToString(type) << "," << "\"" << description << "\"," << line << ")" << std::endl;
 }
+
+std::string Token::getDescription() {
+    return description;
+}
