@@ -1,6 +1,6 @@
 #include "Lexer.h"
 #include "parser.h"
-#include "DatalogProgram.h"
+#include "Interpreter.h"
 #include <fstream>
 using namespace std;// std::filebuf, std::ifstream
 
@@ -42,9 +42,11 @@ int main(int argc, char * argv[]) {
     Parser parser(tokensToParse);
     try {
         DatalogProgram datalogProgram = parser.parse();
-        std::cout << std::endl;
-        datalogProgram.toString();
-        datalogProgram.printDomains();
+        //std::cout << std::endl;
+        //datalogProgram.toString();
+        //datalogProgram.printDomains();
+        Interpreter interpreter = Interpreter(datalogProgram);
+        //interpreter.relationtostring();
     }
     catch (size_t& itemtocatch) {
         std::cout << "Failure!" << std::endl << "  ";

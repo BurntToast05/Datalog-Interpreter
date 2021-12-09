@@ -20,13 +20,47 @@ CMakeFiles/236project1.dir/CommaAutomaton.cpp.o
  /users/guest/c/cg392/project1/Token.h
 CMakeFiles/236project1.dir/CommentAutomaton.cpp.o
  /users/guest/c/cg392/project1/CommentAutomaton.cpp
+CMakeFiles/236project1.dir/Database.cpp.o
+ /users/guest/c/cg392/project1/Database.cpp
+ /users/guest/c/cg392/project1/Database.h
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Header.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Relation.h
+ /users/guest/c/cg392/project1/Rule.h
+ /users/guest/c/cg392/project1/Tuple.h
+CMakeFiles/236project1.dir/DatalogProgram.cpp.o
+ /users/guest/c/cg392/project1/DatalogProgram.cpp
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Rule.h
 CMakeFiles/236project1.dir/FactsAutomaton.cpp.o
  /users/guest/c/cg392/project1/FactsAutomaton.cpp
+CMakeFiles/236project1.dir/Header.cpp.o
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Header.cpp
+ /users/guest/c/cg392/project1/Header.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Rule.h
 CMakeFiles/236project1.dir/IdAutomaton.cpp.o
  /users/guest/c/cg392/project1/Automaton.h
  /users/guest/c/cg392/project1/IdAutomaton.cpp
  /users/guest/c/cg392/project1/IdAutomaton.h
  /users/guest/c/cg392/project1/Token.h
+CMakeFiles/236project1.dir/Interpreter.cpp.o
+ /users/guest/c/cg392/project1/Database.h
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Header.h
+ /users/guest/c/cg392/project1/Interpreter.cpp
+ /users/guest/c/cg392/project1/Interpreter.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Relation.h
+ /users/guest/c/cg392/project1/Rule.h
+ /users/guest/c/cg392/project1/Tuple.h
 CMakeFiles/236project1.dir/LeftPatrenAutomaton.cpp.o
  /users/guest/c/cg392/project1/Automaton.h
  /users/guest/c/cg392/project1/LeftParenAutomaton.h
@@ -55,8 +89,15 @@ CMakeFiles/236project1.dir/Lexer.cpp.o
  /users/guest/c/cg392/project1/Token.h
 CMakeFiles/236project1.dir/MultiplyAutomaton.cpp.o
  /users/guest/c/cg392/project1/MultiplyAutomaton.cpp
+CMakeFiles/236project1.dir/Parameter.cpp.o
+ /users/guest/c/cg392/project1/Parameter.cpp
+ /users/guest/c/cg392/project1/Parameter.h
 CMakeFiles/236project1.dir/PeriodAutomaton.cpp.o
  /users/guest/c/cg392/project1/PeriodAutomaton.cpp
+CMakeFiles/236project1.dir/Predicate.cpp.o
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.cpp
+ /users/guest/c/cg392/project1/Predicate.h
 CMakeFiles/236project1.dir/Q-MarkAutomaton.cpp.o
  /users/guest/c/cg392/project1/Q-MarkAutomaton.cpp
 CMakeFiles/236project1.dir/QueriesAutomaton.cpp.o
@@ -64,8 +105,22 @@ CMakeFiles/236project1.dir/QueriesAutomaton.cpp.o
  /users/guest/c/cg392/project1/QueriesAutomaton.cpp
  /users/guest/c/cg392/project1/QueriesAutomaton.h
  /users/guest/c/cg392/project1/Token.h
+CMakeFiles/236project1.dir/Relation.cpp.o
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Header.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Relation.cpp
+ /users/guest/c/cg392/project1/Relation.h
+ /users/guest/c/cg392/project1/Rule.h
+ /users/guest/c/cg392/project1/Tuple.h
 CMakeFiles/236project1.dir/RightParenAutomaton.cpp.o
  /users/guest/c/cg392/project1/RightParenAutomaton.cpp
+CMakeFiles/236project1.dir/Rule.cpp.o
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Rule.cpp
+ /users/guest/c/cg392/project1/Rule.h
 CMakeFiles/236project1.dir/RulesAutomaton.cpp.o
  /users/guest/c/cg392/project1/RulesAutomaton.cpp
 CMakeFiles/236project1.dir/SchemesAutomaton.cpp.o
@@ -78,13 +133,29 @@ CMakeFiles/236project1.dir/StringAutomaton.cpp.o
 CMakeFiles/236project1.dir/Token.cpp.o
  /users/guest/c/cg392/project1/Token.cpp
  /users/guest/c/cg392/project1/Token.h
+CMakeFiles/236project1.dir/Tuple.cpp.o
+ /users/guest/c/cg392/project1/Tuple.cpp
+ /users/guest/c/cg392/project1/Tuple.h
 CMakeFiles/236project1.dir/main.cpp.o
  /users/guest/c/cg392/project1/Automaton.h
+ /users/guest/c/cg392/project1/Database.h
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Header.h
+ /users/guest/c/cg392/project1/Interpreter.h
  /users/guest/c/cg392/project1/Lexer.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Relation.h
+ /users/guest/c/cg392/project1/Rule.h
  /users/guest/c/cg392/project1/Token.h
+ /users/guest/c/cg392/project1/Tuple.h
  /users/guest/c/cg392/project1/main.cpp
  /users/guest/c/cg392/project1/parser.h
 CMakeFiles/236project1.dir/parser.cpp.o
- ../Token.h
+ /users/guest/c/cg392/project1/DatalogProgram.h
+ /users/guest/c/cg392/project1/Parameter.h
+ /users/guest/c/cg392/project1/Predicate.h
+ /users/guest/c/cg392/project1/Rule.h
+ /users/guest/c/cg392/project1/Token.h
  /users/guest/c/cg392/project1/parser.cpp
  /users/guest/c/cg392/project1/parser.h

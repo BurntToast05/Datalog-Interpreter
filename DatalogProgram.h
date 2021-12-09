@@ -24,5 +24,21 @@ public:
     void addRules(Rule rulesToAdd);
     void printDomains();
     void toString();
+    std::vector<Predicate> getSchemes()
+    {
+        return schemes;
+    }
+    std::vector<Predicate> getFacts()
+    {
+        return facts;
+    }
+    std::vector<Predicate> getQueries()
+    {
+        return queries;
+    }
+    std::vector<Rule> getRules()
+    {
+        return rules;
+    }
 };
 #endif //INC_236PROJECT1_DATALOGPROGRAM_H

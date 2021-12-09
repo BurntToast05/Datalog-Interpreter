@@ -18,10 +18,18 @@ public:
     ~Predicate() = default;
 
     std::string toString();
+    std::string getId()
+    {
+        return id;
+    }
     void addParameter(Parameter parameterToAdd);
     Parameter getParameters(size_t index)
     {
         return parameters.at(index);
+    }
+    std::vector<Parameter> getParameterVector()
+    {
+        return parameters;
     }
     size_t sizeOfParameters()
     {

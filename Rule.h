@@ -33,5 +33,13 @@ public:
     {
         bodyPredicates.push_back(bodyPred);
     }
+    std::vector<Predicate> getBodyPredicates()
+    {
+        return bodyPredicates;
+    }
+    Predicate getHeadPredicate()
+    {
+        return headPredicate;
+    }
 };
 #endif //INC_236PROJECT1_RULE_H

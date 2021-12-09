@@ -104,7 +104,7 @@ DatalogProgram Parser::parse() {
         }
         if (parseTokens.at(index).getTokenType() == TokenType::ENDOFFILE)
         {
-            std::cout << "Success!";
+            //std::cout << "Success!";
             return datalog;
         }
         else
@@ -120,7 +120,7 @@ Predicate Parser::ParseScheme() {
     Predicate newScheme("");
     if (parseTokens.at(index).getTokenType() == TokenType::ID)
     {
-        Parameter theID(parseTokens.at(index).getDescription());
+        Parameter theID(parseTokens.at(index).getDescription(), false);
         newScheme.setId(theID.toString());
         ++index;
     }
@@ -140,7 +140,7 @@ Predicate Parser::ParseScheme() {
     }
     if (parseTokens.at(index).getTokenType() == TokenType::ID)
     {
-        Parameter theItem(parseTokens.at(index).getDescription());
+        Parameter theItem(parseTokens.at(index).getDescription(), false);
         newScheme.addParameter(theItem);
         ++index;
         std::vector<Parameter> idList = ParseIDList();
@@ -184,7 +184,7 @@ std::vector<Parameter> Parser::ParseIDList() {
     }
     if (parseTokens.at(index).getTokenType() == TokenType::ID)
     {
-        Parameter theItem(parseTokens.at(index).getDescription());
+        Parameter theItem(parseTokens.at(index).getDescription(), false);
         parametersToAdd.push_back(theItem);
         ++index;
         std::vector<Parameter> restOfIds = ParseIDList();
@@ -255,7 +255,7 @@ Predicate Parser::ParseFacts() {
     }
     if (parseTokens.at(index).getTokenType() == TokenType::STRING)
     {
-        Parameter theItem(parseTokens.at(index).getDescription());
+        Parameter theItem(parseTokens.at(index).getDescription(), true);
         fact.addParameter(theItem);
         ++index;
         std::vector<Parameter> stringList = ParseStringList();
@@ -306,7 +306,7 @@ std::vector<Parameter> Parser::ParseStringList() {
     }
     if (parseTokens.at(index).getTokenType() == TokenType::STRING)
     {
-        parameterToAdd.push_back(parseTokens.at(index).getDescription());
+        parameterToAdd.push_back(Parameter(parseTokens.at(index).getDescription(), true));
         ++index;
         std::vector<Parameter> stringsToAdd = ParseStringList();
         for(size_t i = 0; i < stringsToAdd.size(); ++i)
@@ -388,7 +388,7 @@ Predicate Parser::ParseHeadPredicate() {
     }
     if (parseTokens.at(index).getTokenType() == TokenType::ID)
     {
-        Parameter parameter(parseTokens.at(index).getDescription());
+        Parameter parameter(parseTokens.at(index).getDescription(), false);
         headPredicate.addParameter(parameter);
         ++index;
         std::vector<Parameter> idList = ParseIDList();
@@ -453,13 +453,13 @@ Predicate Parser::ParsePredicate() {
 Parameter Parser::ParseParameter() {
     if (parseTokens.at(index).getTokenType() == TokenType::STRING)
     {
-        Parameter theParameters(parseTokens.at(index).getDescription());
+        Parameter theParameters(parseTokens.at(index).getDescription(), true);
         ++index;
         return theParameters;
     }
     else if (parseTokens.at(index).getTokenType() == TokenType::ID)
     {
-        Parameter theParameters(parseTokens.at(index).getDescription());
+        Parameter theParameters(parseTokens.at(index).getDescription(), false);
         ++index;
         return theParameters;
     }
